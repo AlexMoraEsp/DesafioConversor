@@ -1,0 +1,6 @@
+USD-- ARS Dolar a peso argentino
+ARS --USD  peso argentino a dolar
+USD-- BRL dolar a real brazileño
+BRL -- USD real brazileño a dolar
+USD --COP dolar -- peso colombiano
+COP ... USD peso colombiano --- dolar

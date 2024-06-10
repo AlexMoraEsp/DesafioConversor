@@ -40,13 +40,12 @@ public class ConexionApi {
             System.out.println("5) Dólar ==> Peso colombiano");
             System.out.println("6) Peso colombiano ==> Dólar");
             System.out.println("7) Salir");
-            System.out.println("Elija una opción válida");
-
             System.out.println("**********************************************************");
+            System.out.println("Elija una opción válida");
             opcion=lectura.nextInt();
 
 
-            if(opcion>=1 && opcion<=7){
+            if(opcion>=1 && opcion<=6){
 
                 System.out.println("Ingrese el valor que desea converter: ");
                 numeroMonedas= lectura.nextInt();
@@ -97,9 +96,15 @@ public class ConexionApi {
                 miCambioMoneda.setNumeroCambio(numeroMonedas);
                 System.out.println(miCambioMoneda);
 
-            } else {
+            } else if (opcion==7){
+                System.out.println("Vuelva pronto");
                 break;
+
+            } else {
+                System.out.println("Opcion Invalida");
+
             }
+
 
 
 
@@ -115,7 +120,7 @@ public class ConexionApi {
 
         //direccion="https://v6.exchangerate-api.com/v6/0d061d4ab9403157ecdc6710/pair/EUR/GBP/10";
 
-        System.out.println("Opcion Invalida");
+
         System.out.println("La ejecucion ha terminado");
 
 
